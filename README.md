@@ -1,1 +1,1 @@
-# drf-batch
+# Celery 动态操作
