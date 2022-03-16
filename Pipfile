@@ -5,11 +5,16 @@ name = "pypi"
 
 [packages]
 django = "*"
-djangorestframework = "*"
-django-filter = "*"
-djangorestframework-bulk = "*"
-django-queryset-csv = "*"
-six = "*"
-django-bulk-update-or-create = "*"
+setuptools = "==57.5.0"
+django-celery-beat = "==2.1.0"
+utils = "*"
+celery = "*"
+redis = "*"
+ipython = "*"
+django-celery-results = "*"
+pytz = "*"
 
 [dev-packages]
+
+[requires]
+python_version = "3.6"
